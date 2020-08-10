@@ -6,7 +6,7 @@ function setup() {
   createCanvas(800,400);
   thickness=random(10,20);
   bullet = createSprite(50, 100, 50,thickness);
-  speed=random(10,100)
+  speed=random(10,200)
   bullet.velocityX=speed;
   wall = createSprite(750,100,20,50);
  
